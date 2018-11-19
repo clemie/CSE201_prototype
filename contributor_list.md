@@ -2,7 +2,7 @@
 
 [comment]: <> (Here is a standard template.)
 
-* **[clemie] (github.com/clemi)**
+* **[clemie] (github.com/clemie)**
   * Use data team
  
 
