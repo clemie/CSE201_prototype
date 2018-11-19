@@ -2,9 +2,7 @@
 
 [comment]: <> (Here is a standard template.)
 
-* **[Your Name] (github-link)**
-  * Role(1)
-  * Role(2) and so on.
-
-* **clemie**
+* **[clemie] (github.com/clemi)**
   * Use data team
+ 
+
