@@ -20,9 +20,36 @@ std::string Knn_(std::string& id, int k){
         knn_info[l] = total_interactions[n]; /* knn info est un liste de liste de papiers, certains papiers peuvent apparaitrent plusieurs fois*/
 
     }
-    array<std::tuple,
+    array<std::string, howmany differentpapers> name_of_papers_of_ID;
+    array<float, howmany differentpapers> ratings_of_ID;
     for (paper = knn_info.begin(); paper != knn_info.end();paper++){
-        
-            float rating_id = 
+        for(k=0;k!= ratings_of_ID.size;k++){
+            std::string name_paper = paper[i];
+            if(name_paper in name_of_papers_of_ID or if name_paper in interactions{
+                break;
     }
+            else {
+                float rating_id = vector_identity_of_ID*vector_identity_of_"name_paper"
+                ratings_of_ID.append(rating_ID);
+                name_of_papers_of_ID.append("name_paper");
+
+            }
+            }
+    
+    int proba;
+    int sum = sum(ratings_of_ID);
+    int random = rand();
+    int interval = 0;
+    for(i = 0;i<=ratings_of_ID.size,i++){
+        if(interval>random*sum){
+            break
+        }
+        interval+= ratings_of_ID[i]
+    }
+    proba = ratings_of_ID[i-1];
+
+
+
+    }
+}
 }
